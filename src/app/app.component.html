@@ -1,0 +1,24 @@
+
+  <!-- <app-deshboard></app-deshboard>
+  <p><app-user [name]="rootName" (nameChanged)="OnNameChanged($event)"></app-user></p>
+  <p><app-cart-component [item]= "rootItem" (addItem)="OnItemwasadded($event)"></app-cart-component></p>
+  <button (click) = "IncreaseNumber()" class="btn btn-primary">IncreaseNumber</button>
+  <p>{{ number }}</p> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+          <app-header-component></app-header-component>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <div class="container">  
+    <div class="row">
+      <div class="col-sm-12">
+          <!-- <app-tabs></app-tabs> -->
+          <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+  
+  
